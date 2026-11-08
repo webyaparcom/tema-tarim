@@ -1,0 +1,40 @@
+{
+  "id": "c9rbqm15gc",
+  "name": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "description": {
+    "tr": "Ekinden masaya; tohumdan tadıma.",
+    "en": "From sowing to the table; from seed to tasting.",
+    "ar": "من الزرع إلى الطاولة؛ من البذرة إلى التذوق."
+  },
+  "keyword": {
+    "tr": "Tarım & Doğa",
+    "en": "Agriculture & Nature",
+    "ar": "زراعة وطبيعة"
+  },
+  "path": "hizmetler",
+  "icon": "work",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "8bro16",
+      "ds7nri"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "date": "2026-11-05T18:58:41.977Z",
+  "update": "2026-11-05T23:44:48.537Z"
+}
