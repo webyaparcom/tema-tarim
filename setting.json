@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Üretim ve hasat; görseller temsilîdir.",
+    "en": "Production and harvest; images are representative.",
+    "ar": "إنتاج وحصاد؛ الصور تمثيلية."
+  },
+  "keyword": {
+    "tr": "tarım, gıda, hasat",
+    "en": "farming, food, harvest",
+    "ar": "زراعة، غذاء، حصاد"
+  },
+  "category": "Kurumsal",
+  "name": "Doğa Tarım",
+  "domain": "tarim.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "nunito-sans",
+    "heading": "dm-serif-display",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#557A2B",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "8px",
+    "--mx-radius-md": "14px",
+    "--mx-radius-lg": "20px",
+    "--mx-radius-xl": "27px"
+  },
+  "icon": "icon.png"
+}
