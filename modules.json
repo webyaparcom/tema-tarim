@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Fiyat iste",
+          "en": "Request price",
+          "ar": "اطلب السعر"
         },
         "cta_url": "teklif-al"
       },
@@ -1533,9 +1544,9 @@
         "bg": "var(--mx-site-bg, #ffffff)",
         "radius": "16px",
         "eyebrow": {
-          "tr": "Tarım & gıda",
-          "en": "Farming & food",
-          "ar": "زراعة وغذاء"
+          "tr": "Fıstık, zeytinyağı ve bal",
+          "en": "Pistachio, olive oil & honey",
+          "ar": "فستق وزيت زيتون وعسل"
         },
         "title": {
           "tr": "Hasattan sofraya",
@@ -1543,20 +1554,20 @@
           "ar": "من الحصاد إلى المائدة"
         },
         "metin": {
-          "tr": "Doğa Tarım, ürün ve üretim sağlar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Doga supplies products and production. Images are representative and text is fictional.",
-          "ar": "يوفر دوبا منتجات وإنتاج. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Antep fıstığı, zeytinyağı, bal ve pekmez; hasadı bahçemizde yapıp elle ayıklıyoruz. Perakende ve toptan fiyat için bize yazın.",
+          "en": "Pistachios, olive oil, honey and molasses; we harvest in our own orchard and sort by hand. Write to us for retail and wholesale prices.",
+          "ar": "فستق وزيت زيتون وعسل ودبس؛ نحصد في بستاننا ونفرز بأيدينا. راسلنا لمعرفة أسعار التجزئة والجملة."
         },
         "cta1": {
-          "tr": "Ürünler",
-          "en": "Products",
-          "ar": "منتجات"
+          "tr": "Ürünlerimiz",
+          "en": "Our products",
+          "ar": "منتجاتنا"
         },
         "cta1_url": "hizmetler",
         "cta2": {
           "tr": "Fiyat iste",
           "en": "Request price",
-          "ar": "اطلب سعر"
+          "ar": "اطلب السعر"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Nasıl yetişiyor?",
-          "en": "How does it grow?",
-          "ar": "كيف ينمو؟"
+          "tr": "Rakamlarla bahçemiz",
+          "en": "Our orchard in numbers",
+          "ar": "بستاننا بالأرقام"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1615,11 +1626,11 @@
         {
           "deger": 24,
           "sonek": "",
-          "ikon": "local_floristry",
+          "ikon": "park",
           "etiket": {
-            "tr": "Tarla dönümü",
-            "en": "Field acres",
-            "ar": "فدان الحقل"
+            "tr": "Dönüm bahçe",
+            "en": "Decares of orchard",
+            "ar": "دونمات من البستان"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1632,24 +1643,9 @@
           "sonek": "",
           "ikon": "grain",
           "etiket": {
-            "tr": "Ürün tipi",
-            "en": "Product types",
+            "tr": "Ürün çeşidi",
+            "en": "Product lines",
             "ar": "أنواع المنتجات"
-          },
-          "aciklama": {
-            "tr": "Kurgusal demo değeri",
-            "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
-          }
-        },
-        {
-          "deger": 95,
-          "sonek": "%",
-          "ikon": "eco",
-          "etiket": {
-            "tr": "Doğal oran",
-            "en": "Natural rate",
-            "ar": "نسبة طبيعية"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1660,11 +1656,26 @@
         {
           "deger": 12,
           "sonek": "",
-          "ikon": "local_shipping",
+          "ikon": "storefront",
           "etiket": {
-            "tr": "Pazar",
-            "en": "Markets",
-            "ar": "أسواق"
+            "tr": "Pazar ve market noktası",
+            "en": "Market and shop points",
+            "ar": "نقاط سوق ومتاجر"
+          },
+          "aciklama": {
+            "tr": "Kurgusal demo değeri",
+            "en": "Fictional demo figure",
+            "ar": "قيمة تجريبية"
+          }
+        },
+        {
+          "deger": 2,
+          "sonek": "",
+          "ikon": "calendar_month",
+          "etiket": {
+            "tr": "Ana hasat dönemi",
+            "en": "Main harvest seasons",
+            "ar": "مواسم الحصاد الرئيسية"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1695,98 +1706,98 @@
         "badgebg": "#2E6BFF",
         "badgecolor": "#ffffff",
         "badge": {
-          "tr": "Tarım & Doğa",
-          "en": "Agriculture & Nature",
+          "tr": "Tarım ve doğa",
+          "en": "Farming & nature",
           "ar": "زراعة وطبيعة"
         },
         "title": {
-          "tr": "Nasıl yetişiyor?",
-          "en": "How does it grow?",
-          "ar": "كيف ينمو؟"
+          "tr": "Bahçemizde neler yetişiyor?",
+          "en": "What grows in our orchard?",
+          "ar": "ماذا ينمو في بستاننا؟"
         },
         "description": {
-          "tr": "Ekinden masaya; tohumdan tadıma.",
-          "en": "From sowing to the table; from seed to tasting.",
-          "ar": "من الزرع إلى الطاولة؛ من البذرة إلى التذوق."
+          "tr": "Fıstıktan zeytinyağına, baldan pekmeze; hasattan paketlemeye.",
+          "en": "From pistachios to olive oil, honey to molasses; from harvest to packing.",
+          "ar": "من الفستق إلى زيت الزيتون ومن العسل إلى الدبس؛ من الحصاد إلى التعبئة."
         }
       },
       "data": [
         {
-          "icon": "local_floristry",
+          "icon": "park",
           "name": {
-            "tr": "Tarla ve hasat",
-            "en": "Field and harvest",
-            "ar": "حقل وحصاد"
+            "tr": "Antep fıstığı hasadı",
+            "en": "Pistachio harvest",
+            "ar": "حصاد الفستق"
           },
           "description": {
-            "tr": "Sezonluk tarla ve hasat planı.",
-            "en": "Seasonal field and harvest plan.",
-            "ar": "خطة حقل وحصاد موسمية."
+            "tr": "Hasat döneminde elle toplama; kabuklu ve iç fıstık.",
+            "en": "Hand picking in season; in-shell and shelled pistachios.",
+            "ar": "قطف يدوي في الموسم؛ فستق بقشره ومقشّر."
           }
         },
         {
           "icon": "grain",
           "name": {
-            "tr": "Kurutma ve eleme",
-            "en": "Drying and sieving",
-            "ar": "تجفيف ونخل"
+            "tr": "Kurutma ve ayıklama",
+            "en": "Drying and sorting",
+            "ar": "التجفيف والفرز"
           },
           "description": {
-            "tr": "Güneş ve rüzgar kurutması.",
-            "en": "Sun and wind drying.",
-            "ar": "تجفيف بالشمس والريح."
+            "tr": "Güneşte kurutma, elle ayıklama ve boylama.",
+            "en": "Sun drying, hand sorting and grading.",
+            "ar": "تجفيف بالشمس وفرز يدوي وتدريج حسب الحجم."
           }
         },
         {
-          "icon": "local_drink",
+          "icon": "water_drop",
           "name": {
-            "tr": "Bal ve nektar",
-            "en": "Honey and nectar",
-            "ar": "عسل ورحيق"
+            "tr": "Zeytinyağı",
+            "en": "Olive oil",
+            "ar": "زيت الزيتون"
           },
           "description": {
-            "tr": "Arı kovanı ve nektar (demo).",
-            "en": "Beehive and nectar (demo).",
-            "ar": "خلية نحلة ورحيق (تجريبي)."
+            "tr": "Soğuk sıkım; cam şişe ve teneke seçenekleri.",
+            "en": "Cold pressed; glass bottle and tin options.",
+            "ar": "عصر على البارد؛ بخيارات زجاجة أو علبة معدنية."
           }
         },
         {
-          "icon": "eco",
+          "icon": "emoji_nature",
           "name": {
-            "tr": "Doğal üretim",
-            "en": "Natural production",
-            "ar": "إنتاج طبيعي"
+            "tr": "Bal ve pekmez",
+            "en": "Honey and molasses",
+            "ar": "العسل والدبس"
           },
           "description": {
-            "tr": "Kimyasalsız üretim (demo).",
-            "en": "Production without chemicals (demo).",
-            "ar": "إنتاج بدون مواد كيميائية (تجريبي)."
+            "tr": "Süzme bal, petekli bal ve pekmez çeşitleri.",
+            "en": "Strained honey, comb honey and molasses.",
+            "ar": "عسل مصفّى وعسل بأقراصه ودبس بأنواعه."
           }
         },
         {
-          "icon": "inventory",
+          "icon": "inventory_2",
           "name": {
-            "tr": "Depolama",
-            "en": "Storage",
-            "ar": "التخزين"
+            "tr": "Depolama ve paketleme",
+            "en": "Storage and packing",
+            "ar": "التخزين والتعبئة"
           },
           "description": {
-            "tr": "Serin ve kuru depo.",
-            "en": "Cool and dry storage.",
-            "ar": "تخزين بارد وجاف."
+            "tr": "Serin ve kuru depoda saklama; gramaj ve koli paketleme.",
+            "en": "Cool, dry storage; packing by weight and carton.",
+            "ar": "تخزين في مكان بارد وجاف؛ تعبئة حسب الوزن وبالكرتون."
           }
         },
         {
           "icon": "local_shipping",
           "name": {
-            "tr": "Pazar tedariki",
-            "en": "Market supply",
-            "ar": "توريد سوق"
+            "tr": "Toptan ve sevkiyat",
+            "en": "Wholesale and shipping",
+            "ar": "الجملة والشحن"
           },
           "description": {
-            "tr": "Pazar ve market sevkı.",
-            "en": "Market and bazaar dispatch.",
-            "ar": "إرسال للسوق والسوق المحلي."
+            "tr": "Esnaf, market ve bireysel siparişe kargo ya da araçla teslim.",
+            "en": "Delivery by courier or vehicle to shops, markets and individuals.",
+            "ar": "توصيل بالشحن أو بالمركبة إلى المتاجر والأسواق والأفراد."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Bahçeden sofraya",
+          "en": "Orchard to table",
+          "ar": "من البستان إلى المائدة"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Dört adımda ürün",
+          "en": "Four steps to your product",
+          "ar": "أربع خطوات إلى منتجك"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Hasattan kapınıza kadar aynı özen.",
+          "en": "The same care from harvest to your door.",
+          "ar": "العناية نفسها من الحصاد إلى باب بيتك."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1836,53 +1847,53 @@
         {
           "year": "01",
           "title": {
-            "tr": "Ekim",
-            "en": "Sowing",
-            "ar": "الزرع"
-          },
-          "text": {
-            "tr": "Tohum ve tarla hazırlığı.",
-            "en": "Seed and field preparation.",
-            "ar": "تحضير بذرة وحقل."
-          }
-        },
-        {
-          "year": "02",
-          "title": {
-            "tr": "Bakım",
-            "en": "Care",
-            "ar": "العناية"
-          },
-          "text": {
-            "tr": "Sulama ve hasat kontrolü.",
-            "en": "Irrigation and harvest control.",
-            "ar": "ري وتراقب الحصاد."
-          }
-        },
-        {
-          "year": "03",
-          "title": {
             "tr": "Hasat",
             "en": "Harvest",
             "ar": "الحصاد"
           },
           "text": {
-            "tr": "El ile toplama ve eleme.",
-            "en": "Hand picking and sieving.",
-            "ar": "قطف يدوي ونخل."
+            "tr": "Olgunlaşan ürün elle toplanır.",
+            "en": "Ripe produce is picked by hand.",
+            "ar": "يُقطف المحصول الناضج يدويًا."
+          }
+        },
+        {
+          "year": "02",
+          "title": {
+            "tr": "Kurutma ve ayıklama",
+            "en": "Drying and sorting",
+            "ar": "التجفيف والفرز"
+          },
+          "text": {
+            "tr": "Güneşte kurutulur, elle ayıklanır.",
+            "en": "Sun dried and sorted by hand.",
+            "ar": "يُجفَّف بالشمس ويُفرز يدويًا."
+          }
+        },
+        {
+          "year": "03",
+          "title": {
+            "tr": "Paketleme",
+            "en": "Packing",
+            "ar": "التعبئة"
+          },
+          "text": {
+            "tr": "Gramaj ve koli düzeninde etiketli ambalaj.",
+            "en": "Labelled packs by weight and carton.",
+            "ar": "عبوات موسومة حسب الوزن والكرتون."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Teslim",
-            "en": "Delivery",
-            "ar": "التسليم"
+            "tr": "Sevkiyat",
+            "en": "Shipping",
+            "ar": "الشحن"
           },
           "text": {
-            "tr": "Kuruma ve depo sevkı.",
-            "en": "Drying and warehouse dispatch.",
-            "ar": "تجفيف وإرسال المستودع."
+            "tr": "Kargo ya da araçla teslim.",
+            "en": "Delivery by courier or vehicle.",
+            "ar": "التسليم بالشحن أو بالمركبة."
           }
         }
       ],
@@ -1911,14 +1922,14 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Çiftlik ekibi",
+          "en": "Farm team",
+          "ar": "فريق المزرعة"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Bahçede ve depoda",
+          "en": "In the orchard and the warehouse",
+          "ar": "في البستان والمستودع"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1932,42 +1943,42 @@
         {
           "name": "Ahmet T.",
           "role": {
-            "tr": "Tarla sorumlu",
-            "en": "Field manager",
-            "ar": "مسؤول حقل"
+            "tr": "Bahçe sorumlusu",
+            "en": "Orchard manager",
+            "ar": "مسؤول البستان"
           },
           "bio": {
-            "tr": "14 yıl hasat.",
-            "en": "14 years of harvest.",
-            "ar": "١٤ عامًا في الحصاد."
+            "tr": "14 yıldır fıstık bahçesinde.",
+            "en": "14 years in the pistachio orchard.",
+            "ar": "14 عامًا في بستان الفستق."
           },
           "img": ""
         },
         {
           "name": "Fatma Z.",
           "role": {
-            "tr": "İşleme",
-            "en": "Processing lead",
-            "ar": "معالجة"
+            "tr": "Ayıklama ve paketleme",
+            "en": "Sorting and packing",
+            "ar": "الفرز والتعبئة"
           },
           "bio": {
-            "tr": "9 yıl kurutma.",
-            "en": "9 years of drying.",
-            "ar": "٩ سنوات في التجفيف."
+            "tr": "9 yıl kurutma ve boylama.",
+            "en": "9 years of drying and grading.",
+            "ar": "9 سنوات في التجفيف والتدريج."
           },
           "img": ""
         },
         {
           "name": "İsmail B.",
           "role": {
-            "tr": "Depo",
-            "en": "Warehouse lead",
-            "ar": "مستودع"
+            "tr": "Depo ve sevkiyat",
+            "en": "Warehouse and shipping",
+            "ar": "المستودع والشحن"
           },
           "bio": {
-            "tr": "5 yıl stok.",
-            "en": "5 years of stock.",
-            "ar": "٥ سنوات في المخزون."
+            "tr": "5 yıl stok ve sevkiyat planı.",
+            "en": "5 years of stock and shipping planning.",
+            "ar": "5 سنوات في تخطيط المخزون والشحن."
           },
           "img": ""
         }
@@ -2000,12 +2011,12 @@
         "badge": {
           "tr": "Müşteri yorumları",
           "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "ar": "آراء العملاء"
         },
         "title": {
-          "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
-          "ar": "ماذا يقول عملاؤنا؟"
+          "tr": "Alıcılarımız ne diyor?",
+          "en": "What our buyers say",
+          "ar": "ماذا يقول مشترونا؟"
         },
         "description": {
           "tr": "Kurgusal demo yorumlar.",
@@ -2019,31 +2030,31 @@
         {
           "name": "F. Demir.",
           "role": {
-            "tr": "Pazar",
+            "tr": "Pazarcı",
             "en": "Market vendor",
-            "ar": "سوق"
+            "ar": "بائع سوق"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Ürün taze; hasat zamanında.",
-            "en": "Product fresh; harvest on time.",
-            "ar": "منتج طازج؛ حصاد في الوقت."
+            "tr": "Fıstık taze geldi, ayıklama temizdi; teslim zamanında yapıldı.",
+            "en": "The pistachios arrived fresh and cleanly sorted; delivery was on time.",
+            "ar": "وصل الفستق طازجًا ومفروزًا بعناية، والتسليم كان في موعده."
           }
         },
         {
           "name": "S. Öztürk.",
           "role": {
-            "tr": "Market",
+            "tr": "Market sahibi",
             "en": "Grocer",
-            "ar": "سوق محلي"
+            "ar": "صاحب بقالة"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Kuruma kalitesi net.",
-            "en": "Drying quality is clear.",
-            "ar": "جودة التجفيف واضحة."
+            "tr": "Bal ve pekmez etiketli geldi, gramajlar tamdı.",
+            "en": "The honey and molasses came labelled and the weights were right.",
+            "ar": "جاء العسل والدبس موسومين والأوزان مضبوطة."
           }
         },
         {
@@ -2051,14 +2062,14 @@
           "role": {
             "tr": "Toptancı",
             "en": "Wholesaler",
-            "ar": "جملة"
+            "ar": "تاجر جملة"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Depo sevkı düzenli.",
-            "en": "Warehouse dispatch is regular.",
-            "ar": "إرسال المستودع منتظم."
+            "tr": "Toplu siparişte sevkiyat düzenliydi.",
+            "en": "Shipping on a bulk order was well organised.",
+            "ar": "كان الشحن منظمًا في الطلب الكبير."
           }
         }
       ],
@@ -2103,19 +2114,19 @@
         "radius": "14px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Bahçeden",
+          "en": "From the orchard",
+          "ar": "من البستان"
         },
         "title": {
-          "tr": "Nasıl yetişiyor?",
-          "en": "How does it grow?",
-          "ar": "كيف ينمو؟"
+          "tr": "Üç ana ürün grubu",
+          "en": "Three main product groups",
+          "ar": "ثلاث مجموعات منتجات رئيسية"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; içerik kurgusal bir demodur.",
+          "en": "Images are representative; the content is a fictional demo.",
+          "ar": "الصور تمثيلية والمحتوى عرض تجريبي افتراضي."
         },
         "ctaLabel": {
           "tr": "Ayrıntı",
@@ -2126,14 +2137,14 @@
       "data": [
         {
           "baslik": {
-            "tr": "Tarla ve hasat",
-            "en": "Field and harvest",
-            "ar": "حقل وحصاد"
+            "tr": "Antep fıstığı hasadı",
+            "en": "Pistachio harvest",
+            "ar": "حصاد الفستق"
           },
           "metin": {
-            "tr": "Sezonluk tarla ve hasat planı.",
-            "en": "Seasonal field and harvest plan.",
-            "ar": "خطة حقل وحصاد موسمية."
+            "tr": "Hasat döneminde elle toplama; kabuklu ve iç fıstık.",
+            "en": "Hand picking in season; in-shell and shelled pistachios.",
+            "ar": "قطف يدوي في الموسم؛ فستق بقشره ومقشّر."
           },
           "img": "gida-hasat.webp",
           "alt": {
@@ -2145,14 +2156,14 @@
         },
         {
           "baslik": {
-            "tr": "Kurutma ve eleme",
-            "en": "Drying and sieving",
-            "ar": "تجفيف ونخل"
+            "tr": "Kurutma ve ayıklama",
+            "en": "Drying and sorting",
+            "ar": "التجفيف والفرز"
           },
           "metin": {
-            "tr": "Güneş ve rüzgar kurutması.",
-            "en": "Sun and wind drying.",
-            "ar": "تجفيف بالشمس والريح."
+            "tr": "Güneşte kurutma, elle ayıklama ve boylama.",
+            "en": "Sun drying, hand sorting and grading.",
+            "ar": "تجفيف بالشمس وفرز يدوي وتدريج حسب الحجم."
           },
           "img": "gida-uretim-1.webp",
           "alt": {
@@ -2164,14 +2175,14 @@
         },
         {
           "baslik": {
-            "tr": "Bal ve nektar",
-            "en": "Honey and nectar",
-            "ar": "عسل ورحيق"
+            "tr": "Zeytinyağı",
+            "en": "Olive oil",
+            "ar": "زيت الزيتون"
           },
           "metin": {
-            "tr": "Arı kovanı ve nektar (demo).",
-            "en": "Beehive and nectar (demo).",
-            "ar": "خلية نحلة ورحيق (تجريبي)."
+            "tr": "Soğuk sıkım; cam şişe ve teneke seçenekleri.",
+            "en": "Cold pressed; glass bottle and tin options.",
+            "ar": "عصر على البارد؛ بخيارات زجاجة أو علبة معدنية."
           },
           "img": "gida-urun-bal.webp",
           "alt": {
@@ -2229,14 +2240,14 @@
         "radius": "14px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Ürünümüzü satan noktalar",
+          "en": "Shops that sell our produce",
+          "ar": "نقاط تبيع منتجاتنا"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal esnaf ve market adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional shop and market names; they do not belong to a real business.",
+          "ar": "أسماء متاجر وأسواق افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2252,13 +2263,13 @@
           "name": "Demo Market"
         },
         {
-          "name": "Demo Arıcı"
+          "name": "Demo Fırın"
+        },
+        {
+          "name": "Demo Baklavacı"
         },
         {
           "name": "Demo Toptancı"
-        },
-        {
-          "name": "Demo Fırın"
         },
         {
           "name": "Demo Zeytinlik"
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Hasat takvimi ne zaman?",
+            "en": "When is the harvest?",
+            "ar": "متى موسم الحصاد؟"
+          },
+          "answer": {
+            "tr": "Fıstık yaz sonunda, zeytin sonbaharda toplanır; güncel takvim için bize yazın.",
+            "en": "Pistachios are picked in late summer and olives in autumn; write to us for the current calendar.",
+            "ar": "يُقطف الفستق في نهاية الصيف والزيتون في الخريف؛ راسلنا لمعرفة الموعد الحالي."
+          },
           "soru": {
             "tr": "Hasat takvimi ne zaman?",
-            "en": "When is the harvest calendar?",
-            "ar": "متى تقويم الحصاد?"
+            "en": "When is the harvest?",
+            "ar": "متى موسم الحصاد؟"
           },
           "cevap": {
-            "tr": "Sezona göre değişir; demo metin değil.",
-            "en": "It varies by season; not a demo text.",
-            "ar": "تتغير حسب الموسم؛ غير نص تجريبي."
+            "tr": "Fıstık yaz sonunda, zeytin sonbaharda toplanır; güncel takvim için bize yazın.",
+            "en": "Pistachios are picked in late summer and olives in autumn; write to us for the current calendar.",
+            "ar": "يُقطف الفستق في نهاية الصيف والزيتون في الخريف؛ راسلنا لمعرفة الموعد الحالي."
           }
         },
         {
+          "question": {
+            "tr": "Organik sertifikanız var mı?",
+            "en": "Do you have an organic certificate?",
+            "ar": "هل لديكم شهادة عضوية؟"
+          },
+          "answer": {
+            "tr": "Bu demo sitede sertifika iddiası yoktur; gerçek bir işletmede sertifika bilgisi ürün başına ayrıca yazılır.",
+            "en": "This demo makes no certification claim; a real business would state certificate details per product.",
+            "ar": "لا يتضمن هذا الموقع التجريبي أي ادعاء بشهادة؛ وفي نشاط حقيقي تُذكر بيانات الشهادة لكل منتج."
+          },
           "soru": {
-            "tr": "Organik sertifika var mı?",
-            "en": "Is there an organic certificate?",
-            "ar": "هل يوجد شهادة عضوية?"
+            "tr": "Organik sertifikanız var mı?",
+            "en": "Do you have an organic certificate?",
+            "ar": "هل لديكم شهادة عضوية؟"
           },
           "cevap": {
-            "tr": "Ürüne göre değişir; demo metindir.",
-            "en": "It varies by product; this is a demo text.",
-            "ar": "تتغير حسب المنتج؛ هذا نص تجريبي."
+            "tr": "Bu demo sitede sertifika iddiası yoktur; gerçek bir işletmede sertifika bilgisi ürün başına ayrıca yazılır.",
+            "en": "This demo makes no certification claim; a real business would state certificate details per product.",
+            "ar": "لا يتضمن هذا الموقع التجريبي أي ادعاء بشهادة؛ وفي نشاط حقيقي تُذكر بيانات الشهادة لكل منتج."
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
             "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
             "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
           }
         },
         {
+          "question": {
+            "tr": "Fiyatlar nasıl belirlenir?",
+            "en": "How are prices determined?",
+            "ar": "كيف تُحدَّد الأسعار؟"
+          },
+          "answer": {
+            "tr": "Ürün, miktar ve sezona göre teklifle belirlenir; genel bir fiyat aralığı bu demoda yer almaz.",
+            "en": "Prices are quoted by product, quantity and season; no general price range is shown in this demo.",
+            "ar": "تُحدَّد الأسعار بعرض حسب المنتج والكمية والموسم؛ ولا يُذكر نطاق سعري عام في هذا العرض."
+          },
           "soru": {
             "tr": "Fiyatlar nasıl belirlenir?",
             "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
+            "ar": "كيف تُحدَّد الأسعار؟"
           },
           "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Ürün, miktar ve sezona göre teklifle belirlenir; genel bir fiyat aralığı bu demoda yer almaz.",
+            "en": "Prices are quoted by product, quantity and season; no general price range is shown in this demo.",
+            "ar": "تُحدَّد الأسعار بعرض حسب المنتج والكمية والموسم؛ ولا يُذكر نطاق سعري عام في هذا العرض."
           }
         }
       ],
@@ -2406,14 +2457,14 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "14px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Fiyat isteyin",
+          "en": "Request a price",
+          "ar": "اطلب سعرًا"
         },
         "description": {
-          "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
-          "en": "Leave your details; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
-          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات."
+          "tr": "Ürün ve miktarı yazın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
+          "en": "Tell us the product and quantity; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
+          "ar": "اكتب المنتج والكمية؛ نردّ خلال يومي عمل على الأكثر. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يتم حفظ أي بيانات."
         },
         "panelTitle": {
           "tr": "Doğa Tarım",
@@ -2421,9 +2472,9 @@
           "ar": "Doğa Tarım"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; içerik kurgusaldır.",
+          "en": "Images are representative; the content is fictional.",
+          "ar": "الصور تمثيلية والمحتوى افتراضي."
         },
         "address": {
           "tr": "Tarla Sokak No: 18, Şahinbey, Gaziantep (kurgusal adres)",
@@ -2434,9 +2485,9 @@
         "whatsapp": "903420200113",
         "email": "hasat@dogatarim.example",
         "hours": {
-          "tr": "Pzt–Cum 08:00 – 18:00",
-          "en": "Mon–Wed 08:00 – 18:00",
-          "ar": "الاثنين–الأربعاء 08:00 – 18:00"
+          "tr": "Pzt–Cmt 08:00 – 18:00",
+          "en": "Mon–Sat 08:00 – 18:00",
+          "ar": "الاثنين–السبت 08:00 – 18:00"
         },
         "mapUrl": "",
         "mapEmbed": "",
@@ -2477,9 +2528,9 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "tr": "Fiyat talep formu",
+          "en": "Price request form",
+          "ar": "نموذج طلب السعر"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Perakende sipariş",
+              "en": "Retail order",
+              "ar": "طلب تجزئة"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Toptan sipariş",
+              "en": "Wholesale order",
+              "ar": "طلب جملة"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Numune ve tadım",
+              "en": "Samples and tasting",
+              "ar": "عينات وتذوق"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,9 +2691,9 @@
           "ar": "Doğa Tarım"
         },
         "description": {
-          "tr": "Doğa Tarım, ürün ve üretim sağlar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Doga supplies products and production. Images are representative and text is fictional.",
-          "ar": "يوفر دوبا منتجات وإنتاج. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Doğa Tarım; Gaziantep'te fıstık, zeytin ve arı ürünleri yetiştiren kurgusal bir aile çiftliğidir. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Doğa Tarım is a fictional family farm in Gaziantep growing pistachios, olives and bee products. Images are representative and text is fictional.",
+          "ar": "دوغا تاريم مزرعة عائلية افتراضية في غازي عنتاب تنتج الفستق والزيتون ومنتجات النحل. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
           "tr": "Hasat sahası",
@@ -2649,22 +2701,22 @@
           "ar": "أرض الحصاد"
         },
         "spot2": {
-          "tr": "Toprak ve tohum aynı sahnede.",
-          "en": "Soil and seed in the same scene.",
-          "ar": "التربة والبذور في نفس المشهد."
+          "tr": "Hasat döneminde kasa ve çuvallar bahçede hazırlanır.",
+          "en": "Crates and sacks are prepared in the orchard in season.",
+          "ar": "تُجهَّز الصناديق والأكياس في البستان في الموسم."
         },
-        "icon2": "verified",
+        "icon2": "park",
         "name3": {
-          "tr": "Tadım tezgahı",
-          "en": "Tasting counter",
-          "ar": "طاولة تذوق"
+          "tr": "Taş değirmen",
+          "en": "Stone mill",
+          "ar": "الرحى الحجرية"
         },
         "spot3": {
-          "tr": "Ürün tadımı ve kayıt.",
-          "en": "Product tasting and record.",
-          "ar": "تذوق المنتج وتسجيل."
+          "tr": "Geleneksel öğütme ve sıkım örneği.",
+          "en": "A traditional grinding and pressing example.",
+          "ar": "مثال على الطحن والعصر التقليدي."
         },
-        "icon3": "schedule",
+        "icon3": "storefront",
         "img": "gida-uretim-2.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
@@ -2729,9 +2781,9 @@
           "ar": "تواصل معنا"
         },
         "description": {
-          "tr": "Pzt–Cum 08:00 – 18:00",
-          "en": "Mon–Wed 08:00 – 18:00",
-          "ar": "الاثنين–الأربعاء 08:00 – 18:00"
+          "tr": "Pzt–Cmt 08:00 – 18:00",
+          "en": "Mon–Sat 08:00 – 18:00",
+          "ar": "الاثنين–السبت 08:00 – 18:00"
         },
         "phone": "+90 342 020 01 13",
         "whatsapp": "903420200113",
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Pzt–Cmt 08:00 – 18:00",
+          "en": "Mon–Sat 08:00 – 18:00",
+          "ar": "الاثنين–السبت 08:00 – 18:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2847,9 +2899,9 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "14px",
         "title": {
-          "tr": "Hasat zamanında",
-          "en": "Harvest on time",
-          "ar": "الحصاد في الوقت"
+          "tr": "Sezonluk siparişe hazırız",
+          "en": "Ready for your seasonal order",
+          "ar": "جاهزون لطلبك الموسمي"
         },
         "text": {
           "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
@@ -2857,15 +2909,15 @@
           "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Fiyat iste",
+          "en": "Request price",
+          "ar": "اطلب السعر"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
-          "tr": "Hizmetleri gör",
-          "en": "See services",
-          "ar": "شاهد الخدمات"
+          "tr": "Ürünleri gör",
+          "en": "See products",
+          "ar": "شاهد المنتجات"
         },
         "btn2Url": "hizmetler",
         "number": "903420200113",
@@ -2881,9 +2933,9 @@
           "ar": "راسلنا عبر واتساب"
         },
         "hours": {
-          "tr": "Pzt–Cum 08:00 – 18:00",
-          "en": "Mon–Wed 08:00 – 18:00",
-          "ar": "الاثنين–الأربعاء 08:00 – 18:00"
+          "tr": "Pzt–Cmt 08:00 – 18:00",
+          "en": "Mon–Sat 08:00 – 18:00",
+          "ar": "الاثنين–السبت 08:00 – 18:00"
         },
         "hoursLabel": {
           "tr": "Çalışma saatleri",

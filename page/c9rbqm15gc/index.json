@@ -6,13 +6,13 @@
     "ar": "خدماتنا"
   },
   "description": {
-    "tr": "Ekinden masaya; tohumdan tadıma.",
-    "en": "From sowing to the table; from seed to tasting.",
-    "ar": "من الزرع إلى الطاولة؛ من البذرة إلى التذوق."
+    "tr": "Fıstıktan zeytinyağına, baldan pekmeze; hasattan paketlemeye.",
+    "en": "From pistachios to olive oil, honey to molasses; from harvest to packing.",
+    "ar": "من الفستق إلى زيت الزيتون ومن العسل إلى الدبس؛ من الحصاد إلى التعبئة."
   },
   "keyword": {
-    "tr": "Tarım & Doğa",
-    "en": "Agriculture & Nature",
+    "tr": "Tarım ve doğa",
+    "en": "Farming & nature",
     "ar": "زراعة وطبيعة"
   },
   "path": "hizmetler",
@@ -36,5 +36,5 @@
     "ar": "خدماتنا"
   },
   "date": "2026-11-05T18:58:41.977Z",
-  "update": "2026-11-05T23:44:48.537Z"
+  "update": "2026-11-12T07:36:58.671Z"
 }

@@ -21,9 +21,9 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Üretim ve hasat; görseller temsilîdir.",
-    "en": "Production and harvest; images are representative.",
-    "ar": "إنتاج وحصاد؛ الصور تمثيلية."
+    "tr": "Fıstık, zeytinyağı ve bal; görseller temsilîdir.",
+    "en": "Pistachios, olive oil and honey; images are representative.",
+    "ar": "فستق وزيت زيتون وعسل؛ الصور تمثيلية."
   },
   "spot": {
     "tr": "",
@@ -42,6 +42,6 @@
     "ar": "من نحن"
   },
   "text": {},
-  "update": "2026-11-05T23:44:48.540Z",
+  "update": "2026-11-12T07:36:58.674Z",
   "date": "2026-10-30"
 }
