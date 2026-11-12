@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Ekinden masaya; tohumdan tadıma.",
-        "en": "From sowing to the table; from seed to tasting.",
-        "ar": "من الزرع إلى الطاولة؛ من البذرة إلى التذوق."
+        "tr": "Fıstıktan zeytinyağına, baldan pekmeze; hasattan paketlemeye.",
+        "en": "From pistachios to olive oil, honey to molasses; from harvest to packing.",
+        "ar": "من الفستق إلى زيت الزيتون ومن العسل إلى الدبس؛ من الحصاد إلى التعبئة."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -49,9 +49,9 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Üretim ve hasat; görseller temsilîdir.",
-        "en": "Production and harvest; images are representative.",
-        "ar": "إنتاج وحصاد؛ الصور تمثيلية."
+        "tr": "Fıstık, zeytinyağı ve bal; görseller temsilîdir.",
+        "en": "Pistachios, olive oil and honey; images are representative.",
+        "ar": "فستق وزيت زيتون وعسل؛ الصور تمثيلية."
       }
     },
     {

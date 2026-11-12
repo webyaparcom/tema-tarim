@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Üretim ve hasat; görseller temsilîdir.",
-    "en": "Production and harvest; images are representative.",
-    "ar": "إنتاج وحصاد؛ الصور تمثيلية."
+    "tr": "Antep fıstığı, zeytinyağı ve bal; bahçeden sofraya. Görseller temsilîdir.",
+    "en": "Pistachios, olive oil and honey, from the orchard to the table. Images are representative.",
+    "ar": "فستق وزيت زيتون وعسل من البستان إلى المائدة. الصور تمثيلية."
   },
   "keyword": {
-    "tr": "tarım, gıda, hasat",
-    "en": "farming, food, harvest",
-    "ar": "زراعة، غذاء، حصاد"
+    "tr": "antep fıstığı, zeytinyağı, bal, pekmez, hasat",
+    "en": "pistachio, olive oil, honey, molasses, harvest",
+    "ar": "فستق حلبي، زيت زيتون، عسل، دبس، حصاد"
   },
   "category": "Kurumsal",
   "name": "Doğa Tarım",
